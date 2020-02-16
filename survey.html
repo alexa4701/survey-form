@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <main id="main" class="container">
+            <div class="item item1 survey">
+                <h1 id="title">Title</h1>
+                <p id="description">
+                    Hi! This is a short description of the form!
+                </p>
+                <form id="survey-form">
+                    <div class="survey-item">
+                        <label for="name" id="name-label" class="survey-label"
+                            >Enter your name:</label
+                        >
+                        <input
+                            name="name"
+                            id="name"
+                            type="text"
+                            class="survey-field"
+                            placeholder="Jane Smith"
+                        />
+                    </div>
+                    <div class="survey-item">
+                        <label for="email" id="email-label" class="survey-label"
+                            > Enter your email address: </label
+                        >
+                        <input
+                            name="email"
+                            id="email"
+                            type="email"
+                            class="survey-field"
+                            placeholder="email@somewhere.com"
+                        />
+                    </div>
+                    <div class="survey-item">
+                        <label for="age" id="number-label" class="survey-label"></label>
+                            Enter your age: </label
+                        >
+                        <input
+                            name="age"
+                            id="age number"
+                            type="number"
+                            class="survey-field"
+                            placeholder="0 - 99"
+                        />
+                    </div>
+                    <div class="survey-item">
+                        <label
+                            for="satisfied"
+                            id="satisfied-label"
+                            class="survey-label"
+                        >
+                            On a scale of 0 to 5, how satisfied with Lucy are
+                            you?</label
+                        >
+                        <br />
+                        <fieldset id="satisfied-form">
+                            <label
+                                for="0"
+                                id="choice-label"
+                                class="survey-label"
+                                >0</label
+                            >
+                            <input
+                                type="radio"
+                                name="satisfied"
+                                id="0"
+                                value="0"
+                            />
+                            <label
+                                for="1"
+                                id="choice-label"
+                                class="survey-label"
+                                >1</label
+                            >
+                            <input
+                                type="radio"
+                                name="satisfied"
+                                id="1"
+                                value="1"
+                            />
+                            <label
+                                for="2"
+                                id="choice-label"
+                                class="survey-label"
+                                >2</label
+                            >
+                            <input
+                                type="radio"
+                                name="satisfied"
+                                id="2"
+                                value="2"
+                            />
+                            <label
+                                for="3"
+                                id="choice-label"
+                                class="survey-label"
+                                >3</label
+                            >
+                            <input
+                                type="radio"
+                                name="satisfied"
+                                id="3"
+                                value="3"
+                            />
+                            <label
+                                for="4"
+                                id="choice-label"
+                                class="survey-label"
+                                >4</label
+                            >
+                            <input
+                                type="radio"
+                                name="satisfied"
+                                id="4"
+                                value="4"
+                            />
+                            <label
+                                for="5"
+                                id="choice-label"
+                                class="survey-label"
+                                >5</label
+                            >
+                            <input
+                                type="radio"
+                                name="satisfied"
+                                id="5"
+                                value="5"
+                            />
+                        </fieldset>
+                    </div>
+                    <div class="survey-item">
+                        <label for="recommend" class="survey-label">
+                            How likely are you to recommend Lucy to a friend?
+                        </label><br />
+                        <select id="recommend dropdown">
+                            <option value="verylikely">Very Likely</option>
+                            <option value="likely">Likely</option>
+                            <option value="unlikely">Unlikely</option>
+                            <option value="notlikely">Not at all likely</option>
+                        </select>
+                    </div>
+                    <div class="survey-item">
+                        <label for="checkboxes" class="survey-label">Here's some checkboxes!</label><br />
+                        <input
+                            type="checkbox"
+                            name="checkboxes"
+                            value="option1"
+                        />
+                        <input
+                            type="checkbox"
+                            name="checkboxes"
+                            value="option2"
+                        />
+                        <input
+                            type="checkbox"
+                            name="checkboxes"
+                            value="option3"
+                        />
+                        <input
+                            type="checkbox"
+                            name="checkboxes"
+                            value="option4"
+                        />
+                        <input
+                            type="checkbox"
+                            name="checkboxes"
+                            value="option5"
+                        />
+                        <input
+                            type="checkbox"
+                            name="checkboxes"
+                            value="option6"
+                        />
+                    </div>
+                    <div class="survey-item">
+                        <label for="comments" class="survey-label">What, if anything, can she do to improve?</label><br />
+                        <input type="textarea" name="comments" class="survey-comments"/>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
